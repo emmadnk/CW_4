@@ -5,7 +5,7 @@ def data_output():
     """
     Метод для приведения данных для вывода
     """
-    with open("../data/vacancies.json", "r", encoding="utf8") as file:
+    with open("/Users/karramba/PycharmProjects/pythonProject3//data/vacancies.json", "r", encoding="utf8") as file:
         vacancies = json.load(file)
     user_vacancies = []
     for vacancy in vacancies:
