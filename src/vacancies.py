@@ -2,12 +2,12 @@ class Vacancy:
     """
     Класс для работы с вакансиями
     """
-    def __init__(self, salary, name, description, url, currency):
+    def __init__(self,name, salary, currency, url, description="Информация отсутсвует"):
         self.name = name
-        self.description = description
-        self.url = url
-        self.currency = currency
         self.salary = salary
+        self.currency = currency
+        self.url = url
+        self.description = description
 
     def __str__(self):
         """
