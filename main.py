@@ -14,9 +14,6 @@ def main():
     f = WorkWithJSON()
     f_1 = f.maintaining_vacancies(vacancies)
 
-    name_vac = input('Введите название вакансии: \n')
-    f_2 = f.add_vacancy(name_vac)
-
     name_criterion = input('Введите критерий для отбора вакансий: \n')
     f_3 = f.get_data(name_criterion)
 
